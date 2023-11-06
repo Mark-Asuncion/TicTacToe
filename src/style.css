@@ -5,17 +5,11 @@ body{
 }
 h1 {
     text-align: center;
-    
 }
 .container-size{
-    /* position: absolute; */
-    /* margin: auto; */
-    /* margin-left: 40%;
-    margin-right: 40%;  */
     padding: 1px 40% 1px;
     display: grid;
     grid-template-columns: auto auto auto;
-    /* grid-template-columns: 20% 30% 20%; */
     place-items: center;
 }
 .container-table{
@@ -25,7 +19,6 @@ h1 {
 }
 .items {
     float: left;
-    /* margin: 1px; */
     background-color: rgba(255, 255, 255, 0.8);
     border: 2px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
@@ -56,27 +49,22 @@ h1 {
 .tally-container{
     margin-top: 3%;
     margin-left: 15%;
-    /* justify-content: center; */
 }
 .tally{
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: center;
     background-color: black;
-    /* margin: 1% 10% 0px 10%; */
     width: 80%;
     min-height: 100px;
     border-radius: 30px;
 }
 .player-tally{
-    /* margin-top: 5%; */
     float: left;
     text-align: center;
-    /* width: 30%; */
 }
 
 .popup{
-    /* visibility: hidden; */
     position: absolute;
     z-index: 1;
     color: white;
@@ -94,22 +82,12 @@ h1 {
     background-color: whitesmoke;
     color:rgb(23, 23, 23);
 }
-.down-btn{
-    /* float: left; */
-}
 .size{
     text-align: center;
-    /* float: left; */
 }
-.up-btn{
-    /* float: left; */
-}
-
 
 @media screen and (max-width: 400px) {
     .size {
         width: 20px;
     }
-    /* .down-btn, .up-btn, .size{ 
-    }*/
-  }
+}
